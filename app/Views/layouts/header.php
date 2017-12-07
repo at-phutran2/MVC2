@@ -48,6 +48,9 @@ use App\Core\Session;
             <li class="nav-item">
               <a class="nav-link" href="/home/contact">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/posts/add">Add Post</a>
+            </li>
             <?php if(Session::get('username')!=NULL){ ?>
             <li class="nav-item">
               <a class="nav-link" href="contact.html"><?php echo Session::get('username');  ?></a>

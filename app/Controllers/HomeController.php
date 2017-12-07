@@ -10,7 +10,7 @@
         public function index()
         {
         	$model = new Post();
-        	$data['posts'] = $model->all();
+        	$data['posts'] = $model->getAll();
             view('home.index',$data);
         }
 

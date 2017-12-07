@@ -25,6 +25,7 @@
               <h2 class="post-title">
                 <?php echo $post['title']; ?>
               </h2>
+              <img height="50px" width="200px" src="/<?php echo $post['image']; ?>">
               <h3 class="post-subtitle">
                 <?php echo $post['description']; ?>
               </h3>
@@ -34,6 +35,7 @@
               on <?php echo $post['created_at']; ?></p>
           </div>
           <hr>
+
           <?php endforeach; ?>
           <hr>
           <!-- Pager -->

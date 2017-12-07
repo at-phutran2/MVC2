@@ -1,4 +1,3 @@
-<?php require_once APP_PATH."Views/layouts/header.php"; ?>
 
 
 
@@ -13,4 +12,3 @@ Password : <br>
 </form>
 
 
-<?php require_once APP_PATH."Views/layouts/footer.php"; ?>
