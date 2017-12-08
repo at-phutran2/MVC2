@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html/public":{"guestpath":"/var/www/html/public","hostpath":"/home/phu/MVC2","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/phu/MVC2","disabled":false,"__vagrantfile":true}}}
